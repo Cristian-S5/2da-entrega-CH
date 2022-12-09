@@ -43,6 +43,12 @@ nav ul {
 }
 
 
+.producto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3, 5vw;
+    grid-gap: 15px ;
+}
 
 
 
@@ -76,10 +82,7 @@ footer ul li {
     font-family: Helvetica, sans-serif;
 }
 
-.producto {
-    padding: 1%;
-    display: inline-block;
-}
+
 
 div button {
     padding: 10px;
@@ -122,9 +125,3 @@ img {
 
 
 
-.producto {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 3, 5vw;
-    grid-gap: 15px ;
-}
