@@ -1,0 +1,148 @@
+.navegación {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+}
+
+.logoInicio {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 10%;
+    padding-top: 1%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 2%;
+}
+
+.navegación {
+    background-color: rgb(0, 0, 0);
+    float: right;
+    font-family: 'Helvetica';
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li a {
+
+    display: block;
+    padding: .5em 1em;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
+
+footer ul li {
+    color: white;
+    padding: 5px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+
+
+.destacados {
+    padding: 1%;
+    padding-bottom: 5%;
+    display: inline-block;
+}
+
+.destacados img {
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+
+.fondoDestacados {
+    background-color: rgb(188, 188, 188);
+
+}
+
+div p {
+    font-size: 20px;
+}
+
+div button {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 10px;
+}
+
+button {
+    height: 40px;
+    transition: height 0.5s;
+}
+
+button:hover {
+    height: 50px;
+}
+
+
+.banner {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
+
+footer ul li {
+    text-align: center;
+}
+
+div form p {
+    text-align: center;
+}
+
+
+
+@media (min-200px) {
+
+    div .destacados {
+        display: block;
+        margin: auto;
+    }
+
+    .navegación {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+@media (min-300px) {
+
+    div .destacados {
+        display: block;
+        margin: auto;
+    }
+
+}
