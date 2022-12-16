@@ -76,8 +76,40 @@ footer ul li {
 }
 
 .banner {
-    padding-top: 5%;
     padding-bottom: 5%;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px 400px;
+    justify-content: center;
+}
+
+.thumbnail {
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: groove;
+    border-radius: 10%;
+}
+
+
+div button {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 10px;
+}
+
+button {
+    height: 40px;
+    transition: height 0.5s;
+}
+
+button:hover {
+    height: 50px;
 }
 
 

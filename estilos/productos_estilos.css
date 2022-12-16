@@ -43,12 +43,14 @@ nav ul {
 }
 
 
-.producto {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 3, 5vw;
-    grid-gap: 15px ;
-}
+.grid {
+    display: grid;   
+    grid-template-columns: 400px 400px 200px;
+    grid-template-rows: 500px 500px 500px ;
+    padding-top: 5%;
+    justify-content: center;
+  }
+ 
 
 
 
@@ -114,7 +116,7 @@ img {
         margin: auto;
     }
 
-    .navegación {
+    .navegacion {
 
         display: flex;
         flex-direction: column;
