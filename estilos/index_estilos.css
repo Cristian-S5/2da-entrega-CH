@@ -1,4 +1,4 @@
-.navegación {
+.navegacion {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -23,7 +23,7 @@ header {
     padding: 2%;
 }
 
-.navegación {
+.navegacion {
     background-color: rgb(0, 0, 0);
     float: right;
     font-family: 'Helvetica';
