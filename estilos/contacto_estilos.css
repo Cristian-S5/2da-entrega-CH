@@ -98,9 +98,13 @@ div form {
     padding-bottom:5%;
 }
 
-iframe {
-padding-bottom: 5%;
+.mapagrid {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 5%;
 }
+
+
 
 @media (min-200px) {
 
@@ -109,7 +113,7 @@ padding-bottom: 5%;
         margin: auto;
     }
 
-    .navegación {
+    .navegacion {
 
         display: flex;
         flex-direction: column;

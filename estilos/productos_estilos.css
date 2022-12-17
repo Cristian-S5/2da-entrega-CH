@@ -44,13 +44,14 @@ nav ul {
 
 
 .grid {
-    display: grid;   
-    grid-template-columns: 400px 400px 200px;
-    grid-template-rows: 500px 500px 500px ;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px 500px 500px;
     padding-top: 5%;
+    justify-items: center;
     justify-content: center;
-  }
- 
+}
+
 
 
 
@@ -97,19 +98,20 @@ div button {
 button {
     height: 40px;
     transition: height 0.5s;
- }
- button:hover {
+}
+
+button:hover {
     height: 50px;
- }
+}
 
 img {
     border-color: rgb(0, 0, 0);
     border-width: 3px;
-    border-style:groove;
+    border-style: groove;
     border-radius: 10%;
-  }
+}
 
-  @media (min-200px) {
+@media (min-200px) {
 
     div .destacados {
         display: block;
@@ -124,6 +126,3 @@ img {
     }
 
 }
-
-
-
