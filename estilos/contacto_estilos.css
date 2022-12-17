@@ -8,6 +8,51 @@
 }
 
 
+@media (max-width: 800px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        background-color: #000000;
+        padding: 2%;
+        font-family: 'Helvetica';
+        justify-content: center;
+        height: 200px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul li {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    ul li a {
+        color: #ffffff;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .logoInicio {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .buscador {
+        display: none;
+    }
+
+}
+
+
+
 header {
     background-color: #000000;
     padding: 2%;
@@ -29,23 +74,18 @@ ul li a {
 
 nav {
     display: flex;
-    align-items: center;
     margin-left: auto;
 }
 
 .buscador {
     margin-left: 550px;
-    align-items: center;
-    margin-top: -5px;
+    margin-top: 5px;
 }
-
-
 
 .logoInicio {
     margin-left: 25px;
     margin-top: 15px;
 }
-
 
 
 
@@ -88,6 +128,14 @@ footer ul li {
 h3 {
     text-align: center;
     padding-bottom: 5%;
+}
+
+@media (max-width: 800px) {
+.textoContactanos {
+    height: 200;
+    overflow-x: scroll;
+}
+
 }
 
 .formularioConsultas {

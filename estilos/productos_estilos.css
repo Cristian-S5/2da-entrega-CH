@@ -1,11 +1,61 @@
 .contenedorEtiquetas {
     max-width: 1800px;
-    margin:auto;
+    margin: auto;
 }
 
 .flex {
     display: flex;
 }
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        background-color: #000000;
+        padding: 2%;
+        font-family: 'Helvetica';
+        justify-content: center;
+        height: 200px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul li {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    ul li a {
+        color: #ffffff;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .logoInicio {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .buscador {
+        display: none;
+    }
+
+}
+
 
 
 header {
@@ -15,8 +65,9 @@ header {
 }
 
 ul {
-    list-style: none;    
+    list-style: none;
 }
+
 ul li {
     padding: 5px;
     margin: 5px;
@@ -28,17 +79,13 @@ ul li a {
 
 nav {
     display: flex;
-    align-items: center;
     margin-left: auto;
 }
 
 .buscador {
     margin-left: 550px;
-    align-items: center;
-    margin-top: -5px;
+    margin-top: 25px;
 }
-
-
 
 .logoInicio {
     margin-left: 25px;
@@ -51,15 +98,32 @@ nav {
 
 
 
-
 .grid {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 500px 500px 500px;
-    padding-top: 5%;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat (9, 500px);
+    padding-top: 50px;
+    padding-bottom: 50px;
     justify-items: center;
     justify-content: center;
+    grid-gap: 50px;
 }
+
+@media (min-width: 1200px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 500px 500px 500px;
+        padding-top: 5%;
+        justify-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
 
 
 
@@ -102,15 +166,15 @@ footer ul li {
 }
 
 .botonAnimado {
-        background-color: #000000;
-        color: #ffffff;
-        font-family: 'Helvetica', sans-serif;
-        border-radius: 10px;
-        margin: auto;
-        height: 40px;
-        transition: height 0.5s;
-        height: 40px;
-        transition: height 0.5s;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 10px;
+    margin: auto;
+    height: 40px;
+    transition: height 0.5s;
+    height: 40px;
+    transition: height 0.5s;
 }
 
 img {
@@ -118,20 +182,4 @@ img {
     border-width: 3px;
     border-style: groove;
     border-radius: 10%;
-}
-
-@media (min-200px) {
-
-    div .destacados {
-        display: block;
-        margin: auto;
-    }
-
-    .navegacion {
-
-        display: flex;
-        flex-direction: column;
-
-    }
-
 }

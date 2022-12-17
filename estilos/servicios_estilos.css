@@ -1,11 +1,56 @@
 .contenedorEtiquetas {
     max-width: 1800px;
-    margin:auto;
+    margin: auto;
 }
 
 .flex {
     display: flex;
 }
+
+
+@media (max-width: 800px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        background-color: #000000;
+        padding: 2%;
+        font-family: 'Helvetica';
+        justify-content: center;
+        height: 200px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul li {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    ul li a {
+        color: #ffffff;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .logoInicio {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .buscador {
+        display: none;
+    }
+
+}
+
 
 
 header {
@@ -15,8 +60,9 @@ header {
 }
 
 ul {
-    list-style: none;    
+    list-style: none;
 }
+
 ul li {
     padding: 5px;
     margin: 5px;
@@ -28,17 +74,13 @@ ul li a {
 
 nav {
     display: flex;
-    align-items: center;
     margin-left: auto;
 }
 
 .buscador {
     margin-left: 550px;
-    align-items: center;
-    margin-top: -5px;
+    margin-top: 5px;
 }
-
-
 
 .logoInicio {
     margin-left: 25px;
@@ -87,13 +129,33 @@ footer ul li {
 
 .grid {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 400px;
-    justify-content: center;
-    justify-items: center;
-    grid-gap: 70px;
+    grid-template-columns: 400px;
+    grid-template-rows: 400px 400px 400px;
+    padding-top: 50px;
     padding-bottom: 50px;
+    justify-items: center;
+    justify-content: center;
+    grid-gap: 50px;
 }
+
+
+@media (min-width: 1024px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 400px;
+        justify-content: center;
+        justify-items: center;
+        grid-gap: 70px;
+        padding-bottom: 50px;
+    }
+}
+
+
+
+
+
+
 
 .thumbnail {
     border-color: rgb(0, 0, 0);
@@ -108,29 +170,13 @@ footer ul li {
 }
 
 .botonAnimado {
-        background-color: #000000;
-        color: #ffffff;
-        font-family: 'Helvetica', sans-serif;
-        border-radius: 10px;
-        margin: auto;
-        height: 40px;
-        transition: height 0.5s;
-        height: 40px;
-        transition: height 0.5s;
-}
-
-@media (min-200px) {
-
-    div .destacados {
-        display: block;
-        margin: auto;
-    }
-
-    .navegación {
-
-        display: flex;
-        flex-direction: column;
-
-    }
-
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 10px;
+    margin: auto;
+    height: 40px;
+    transition: height 0.5s;
+    height: 40px;
+    transition: height 0.5s;
 }
