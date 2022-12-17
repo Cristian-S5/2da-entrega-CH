@@ -1,46 +1,52 @@
-.navegacion {
+.contenedorEtiquetas {
+    max-width: 1800px;
+    margin: auto;
+}
+
+.flex {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+}
+
+
+header {
+    background-color: #000000;
+    padding: 2%;
+    font-family: 'Helvetica';
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 5px;
+    margin: 5px;
+}
+
+ul li a {
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 .buscador {
-    display: flex;
-    justify-content: center;
+    margin-left: 550px;
+    align-items: center;
+    margin-top: -5px;
 }
+
+
 
 .logoInicio {
-    display: flex;
-    justify-content: flex-start;
-    padding-right: 10%;
-    padding-top: 1%;
+    margin-left: 25px;
+    margin-top: 15px;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    background-color: #000000;
-    padding: 2%;
-}
 
-.navegacion {
-    background-color: rgb(0, 0, 0);
-    float: right;
-    font-family: 'Helvetica', sans-serif;
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav li a {
-
-    display: block;
-    padding: .5em 1em;
-    color: white;
-}
-
-nav ul {
-    display: flex;
-}
 
 
 
@@ -50,16 +56,6 @@ footer p {
 }
 
 footer ul li {
-    text-align: center;
-}
-
-
-.buscador {
-    text-align: center;
-}
-
-.Formulario_consultas {
-
     text-align: center;
 }
 
@@ -84,7 +80,7 @@ footer ul li {
 }
 
 .textoAyuda {
-   
+
     text-align: center;
     font-size: 200%;
 }
@@ -94,30 +90,35 @@ h3 {
     padding-bottom: 5%;
 }
 
-div form {
-    padding-bottom:5%;
+.formularioConsultas {
+    padding-bottom: 5%;
+    text-align: center;
 }
 
-.mapagrid {
-    display: grid;
+
+.botonAnimado:hover {
+    height: 50px;
+}
+
+.botonAnimado {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 10px;
+    margin: auto;
+    transition: height 0.5s;
+    height: 40px;
+    transition: height 0.5s;
+}
+
+.mapa {
     justify-content: center;
     padding-bottom: 5%;
+    align-items: center;
+    margin: auto;
 }
 
-
-
-@media (min-200px) {
-
-    div .destacados {
-        display: block;
-        margin: auto;
-    }
-
-    .navegacion {
-
-        display: flex;
-        flex-direction: column;
-
-    }
-
+.grid {
+    display: grid;
+    justify-content: center;
 }

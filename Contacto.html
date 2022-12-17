@@ -13,93 +13,105 @@
 
 <body>
 
-    <header>
+    <div class="contenedorEtiquetas">
 
-        <div class="logoInicio">
-            <a href="index.html"> <img src="imágenes/blanco-14.png" alt="Infinitum logo" height="31,196px"
-                    width="182,18266px" /> </a>
+        <header class="flex">
 
-        </div>
+            <div class="logoInicio">
+                <a href="index.html"> <img src="imágenes/blanco-14.png" alt="Infinitum logo" height="31,196px"
+                        width="182,18266px" /> </a>
+
+            </div>
 
 
-        <div class="buscador">
+            <div class="buscador">
+                <div>
+                    <form action="Productos.html" method="post" target="_blank">
+                        <p>
+                            <input type="search" name="Buscar" placeholder="¿qué estás buscando?">
+                            <button> <a> <input type="submit" value="Buscar"> </button></a>
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+
             <div>
-                <form action="Productos.html" method="post" target="_blank">
+                <nav class="navegacion">
+                    <ul class="flex">
+                        <li> <a href="Productos.html"> Productos</a> </li>
+                        <li> <a href="Servicios.html"> Servicios</a> </li>
+                        <li> <a href="Nosotros.html"> Nosotros</a> </li>
+                        <li> <a href="Contacto.html"> Contacto</a> </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+
+        <div class="grid">
+
+            <h1 class="titulo">CONTACTO</h1>
+
+            <h2 class="textoAyuda">¿En qué te podemos ayudar?</h2>
+            <h3>dejanos tus dudas o propuestas y te responderemos a la brevedad</h3>
+
+
+            <div class="formularioConsultas">
+                <form>
+
+                    <label for="nombre"> Nombre </label> <br>
+                    <input style="width: 500px; height: 30px;" type="text" name="nombre" id="nombre" />
                     <p>
-                        <input type="search" name="Buscar" placeholder="¿qué estás buscando?">
-                        <input type="submit" value="Buscar">
-                    </p>
+                        <label for="apellido"> Apellido </label> <br>
+                        <input style="width: 500px; height: 30px;" type="text" name="apellido" id="apellido" />
+                    <p>
+                        <label for="celular"> Celular </label> <br>
+                        <input style="width: 500px; height: 30px;" type="Text" name="celular" id="celular" />
+                    <p>
+                        <label for="correo">Correo</label> <br>
+                        <input style="width: 500px; height: 30px;" type="Email" name="correo" id="correo" />
+                    <p>
+                        <label for="comentario">Comentario</label> <br>
+                        <textarea style="width: 500px; height: 120px;"> </textarea>
+
+                    <div>
+                        <a href=input type="submit" value="Enviar"> <button class="botonAnimado"> Enviar </button> </a>
+                    </div>
+
+                    <div>
+                        <a href=input type="reset" value="Reestablecer"> <button class="botonAnimado"> Reestablecer
+                            </button> </a>
+                    </div>
+
                 </form>
+            </div>
+
+            <div>
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d839117.5377032923!2d-56.52301715468713!3d-34.76055801291377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81fbaf929fed%3A0x359225926562a674!2sInfinitum!5e0!3m2!1ses-419!2suy!4v1668662974562!5m2!1ses-419!2suy"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
 
         </div>
 
-        <div>
-            <nav class="navegacion">
-                <ul>
-                    <li> <a href="Productos.html"> Productos</a> </li>
-                    <li> <a href="Servicios.html"> Servicios</a> </li>
-                    <li> <a href="Nosotros.html"> Nosotros</a> </li>
-                    <li> <a href="Contacto.html"> Contacto</a> </li>
-                </ul>
-            </nav>
-        </div>
 
-    </header>
+        <footer>
+            <ul style="list-style: none">
+                <li>Whats app: (+598) 94 290 619</li>
+                <li>Correo: agenciainfinitumrrpp@gmail.com</li>
+                <a href="https://www.instagram.com/infinitum.uy/" target="_blank">
+                    <li>Redes Sociales: @infinitum.uy</li>
+                </a>
+                <li>Dirección: Av. Uruguay 1589</li>
 
-    <h1 class="titulo">CONTACTO</h1>
+            </ul>
 
-    <h2 class="textoAyuda">¿En qué te podemos ayudar?</h2>
-    <h3>dejanos tus dudas o propuestas y te responderemos a la brevedad</h3>
+            <p>Todos los derechos reservados</p>
 
-
-    <div class="Formulario_consultas">
-        <form>
-
-            <input type="text" value="Nombre" />
-            <p>
-                <input type="text" value="Apellido" />
-            <p>
-                <input type="Text" value="Celular" />
-            <p>
-                <input type="Email" value="Correo" />
-            <p>
-
-                <textarea style="height: 40px; height: 80px;">Comentario</textarea>
-            <p>
-                <input type="submit" value="Enviar" />
-                <input type="reset" value="Reestablecer" />
-            <p>
-
-
-        </form>
-    </div>
-
-    <div class="mapagrid">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d839117.5377032923!2d-56.52301715468713!3d-34.76055801291377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81fbaf929fed%3A0x359225926562a674!2sInfinitum!5e0!3m2!1ses-419!2suy!4v1668662974562!5m2!1ses-419!2suy"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </div>
-
-
-
-
-    <footer>
-        <ul style="list-style: none">
-            <li>Whats app: (+598) 94 290 619</li>
-            <li>Correo: agenciainfinitumrrpp@gmail.com</li>
-            <a href="https://www.instagram.com/infinitum.uy/" target="_blank">
-                <li>Redes Sociales: @infinitum.uy</li>
-            </a>
-            <li>Dirección: Av. Uruguay 1589</li>
-
-        </ul>
-
-        <p>Todos los derechos reservados</p>
-
-    </footer>
+        </footer>
 
 
 </body>
