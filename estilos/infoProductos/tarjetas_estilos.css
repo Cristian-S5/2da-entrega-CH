@@ -8,6 +8,8 @@
 }
 
 
+
+
 @media (max-width: 800px) {
 
     header {
@@ -49,11 +51,39 @@
         display: none;
     }
 
+    .banner {
+        display: none;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagenDesplegables {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .select {
+        border-radius: 10px;
+        border-width: 3px;
+        border-style: groove;
+        height: 40px;
+        width: 290px;
+    }
+
+    .selectores {
+        padding-left: 50px;
+        padding-bottom: 25px;
+    }
+
+    .precio {
+        padding-left: 50px;
+        padding-bottom: 25px;
+    }
+
 }
-
-
-
-
 
 
 header {
@@ -91,16 +121,52 @@ nav {
 }
 
 
-
-
-footer p {
-    color: #ffffff;
-    text-align: center;
+h1 {
+    padding-left: 50px;
 }
 
-footer ul li {
-    text-align: center;
+label {
+    flex-direction: column;
+    padding-top: 20px;
+
 }
+
+select {
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: groove;
+    height: 50px;
+    width: 400px;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.selectores {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -115,61 +181,11 @@ footer ul li {
     font-family: 'Helvetica', sans-serif;
 }
 
-.titulo {
-    text-align: center;
-    padding-top: 5%;
-    font-size: 300%;
-    font-family: Helvetica, sans-serif;
-}
-
-.textoAyuda {
-
-    text-align: center;
-    font-size: 200%;
-}
-
-h3 {
-    text-align: center;
-    padding-bottom: 5%;
-}
-
-@media (max-width: 800px) {
-    .textoContactanos {
-        height: 200;
-        overflow-x: scroll;
-    }
-
-}
-
-.formularioConsultas {
-    padding-bottom: 5%;
-    text-align: center;
-}
-
-
-.botonAnimado:hover {
-    height: 50px;
-}
-
-.botonAnimado {
-    background-color: #000000;
+footer p {
     color: #ffffff;
-    font-family: 'Helvetica', sans-serif;
-    border-radius: 10px;
-    margin: auto;
-    transition: height 0.5s;
-    height: 40px;
-    transition: height 0.5s;
+    text-align: center;
 }
 
-.mapa {
-    justify-content: center;
-    padding-bottom: 5%;
-    align-items: center;
-    margin: auto;
-}
-
-.grid {
-    display: grid;
-    justify-content: center;
+footer ul li {
+    text-align: center;
 }
