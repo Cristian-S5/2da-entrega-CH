@@ -1,0 +1,215 @@
+.contenedorEtiquetas {
+  max-width: 1800px;
+  margin: auto; }
+
+.flex {
+  display: flex; }
+
+@media (max-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 2%;
+    font-family: 'Helvetica';
+    justify-content: center;
+    height: 200px; }
+  ul {
+    list-style: none; }
+  ul li {
+    padding: 5px;
+    margin: 5px; }
+  ul li a {
+    color: #ffffff; }
+  nav {
+    display: flex;
+    justify-content: center; }
+  .logoInicio {
+    display: flex;
+    justify-content: center; }
+  .buscador {
+    display: none; }
+  .banner {
+    display: none; } }
+
+header {
+  background-color: #000000;
+  padding: 2%;
+  font-family: 'Helvetica'; }
+  header nav {
+    display: flex;
+    margin-left: auto; }
+    header nav ul {
+      list-style: none; }
+      header nav ul li {
+        padding: 5px;
+        margin: 5px; }
+        header nav ul li a {
+          color: #ffffff; }
+  header .buscador {
+    margin-left: 550px;
+    margin-top: 5px; }
+  header .logoInicio {
+    margin-left: 25px;
+    margin-top: 15px; }
+
+.banner {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+footer {
+  background-color: black; }
+  footer ul li {
+    color: white;
+    padding: 5px;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center; }
+  footer p {
+    color: #ffffff;
+    text-align: center; }
+  footer form p {
+    text-align: center; }
+
+.titulos {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 300%;
+  font-family: Helvetica, sans-serif; }
+
+.gridDestacados {
+  display: grid;
+  grid-template-columns: 100px;
+  grid-template-rows: 450px 450px 450px;
+  padding-top: 50px;
+  justify-content: center;
+  justify-items: center;
+  grid-gap: 50px; }
+
+@media (min-width: 1200px) {
+  .gridDestacados {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 50px; } }
+
+.gridDestacados1 {
+  display: grid;
+  grid-template-columns: 100px;
+  grid-template-rows: 550px 500px 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  justify-items: center;
+  grid-gap: 50px; }
+
+@media (min-width: 1024px) {
+  .gridDestacados1 {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 70px;
+    padding-bottom: 50px; } }
+
+.thumbnail {
+  border-color: black;
+  border-width: 3px;
+  border-style: groove;
+  border-radius: 10%; }
+
+.fondoDestacados {
+  background-color: #bcbcbc; }
+
+div p {
+  font-size: 20px; }
+
+.botonAnimado:hover {
+  height: 50px; }
+
+.botonAnimado {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Helvetica', sans-serif;
+  border-radius: 10px;
+  margin: auto;
+  height: 40px;
+  transition: height 0.5s;
+  height: 40px;
+  transition: height 0.5s; }
+
+.logoNosotros {
+  display: block;
+  margin: auto; }
+
+.gridProductos {
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: repeat 9, 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-items: center;
+  justify-content: center;
+  grid-gap: 50px; }
+
+@media (min-width: 1200px) {
+  .gridProductos {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px 500px 500px;
+    padding-top: 5%;
+    justify-items: center;
+    justify-content: center; } }
+
+.textoNosotros {
+  padding-bottom: 0%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 200%; }
+
+.textoAyuda {
+  text-align: center;
+  font-size: 200%; }
+
+h3 {
+  text-align: center;
+  padding-bottom: 5%; }
+
+.formularioConsultas {
+  padding-bottom: 5%;
+  text-align: center; }
+
+.mapa {
+  justify-content: center;
+  padding-bottom: 5%;
+  align-items: center;
+  margin: auto; }
+
+.grid2 {
+  display: grid;
+  justify-content: center; }
+
+.grid3 {
+  padding-left: 50px; }
+
+.flex1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px; }
+
+.select {
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: groove;
+  height: 50px;
+  width: 400px; }
+
+.imagenDesplegables {
+  display: flex;
+  flex-direction: row; }
+
+.selectores {
+  display: flex;
+  flex-direction: column; }
