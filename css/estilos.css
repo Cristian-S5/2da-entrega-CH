@@ -9,7 +9,7 @@
   header {
     display: flex;
     flex-direction: column;
-    background-color: #000000;
+    background-color: #006761;
     padding: 2%;
     font-family: 'Helvetica';
     justify-content: center;
@@ -23,17 +23,19 @@
     color: #ffffff; }
   nav {
     display: flex;
-    justify-content: center; }
+    justify-content: flex-end; }
   .logoInicio {
     display: flex;
     justify-content: center; }
   .buscador {
     display: none; }
   .banner {
-    display: none; } }
+    display: none; }
+  .bannerMobile {
+    padding-top: 40px; } }
 
 header {
-  background-color: #000000;
+  background-color: #006761;
   padding: 2%;
   font-family: 'Helvetica'; }
   header nav {
@@ -58,7 +60,9 @@ header {
   padding-bottom: 5%; }
 
 footer {
-  background-color: black; }
+  background-color: #006761;
+  flex-direction: column;
+  align-items: center; }
   footer ul li {
     color: white;
     padding: 5px;
@@ -104,7 +108,7 @@ footer {
   justify-items: center;
   grid-gap: 50px; }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .gridDestacados1 {
     display: grid;
     grid-template-columns: 400px 400px 400px;
@@ -112,16 +116,16 @@ footer {
     justify-content: center;
     justify-items: center;
     grid-gap: 70px;
-    padding-bottom: 50px; } }
+    padding-bottom: 100px; } }
 
 .thumbnail {
-  border-color: black;
+  border-color: #006761;
   border-width: 3px;
   border-style: groove;
   border-radius: 10%; }
 
 .fondoDestacados {
-  background-color: #bcbcbc; }
+  background-color: #D5E9D9; }
 
 div p {
   font-size: 20px; }
@@ -130,10 +134,11 @@ div p {
   height: 50px; }
 
 .botonAnimado {
-  background-color: #000000;
+  background-color: #006761;
   color: #ffffff;
   font-family: 'Helvetica', sans-serif;
   border-radius: 10px;
+  border-color: #ffffff;
   margin: auto;
   height: 40px;
   transition: height 0.5s;
@@ -190,26 +195,3 @@ h3 {
 .grid2 {
   display: grid;
   justify-content: center; }
-
-.grid3 {
-  padding-left: 50px; }
-
-.flex1 {
-  display: flex;
-  flex-direction: column;
-  padding-top: 20px; }
-
-.select {
-  border-radius: 10px;
-  border-width: 3px;
-  border-style: groove;
-  height: 50px;
-  width: 400px; }
-
-.imagenDesplegables {
-  display: flex;
-  flex-direction: row; }
-
-.selectores {
-  display: flex;
-  flex-direction: column; }
