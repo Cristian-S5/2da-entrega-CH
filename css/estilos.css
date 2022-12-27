@@ -17,7 +17,7 @@ header {
         padding: 5px;
         margin: 5px; }
   header .buscador {
-    margin-left: 550px;
+    margin-left: 400px;
     margin-top: 5px; }
   header .logoInicio {
     margin-left: 25px;
@@ -176,10 +176,7 @@ h3 {
   .dropdown-menu {
     text-decoration: none; }
     .dropdown-menu a {
-      color: #006761; }
-  .maps {
-    width: 300;
-    height: 150; } }
+      color: #006761; } }
 
 @media (min-width: 1200px) {
   .gridProductos {
