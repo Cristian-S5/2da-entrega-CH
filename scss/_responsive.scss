@@ -27,12 +27,13 @@
             background-color: #D5E9D9;
             color: $primary-color;
             transition: background-color .5s;
-            }
+        }
     }
 
     nav {
         display: flex;
         justify-content: center;
+        max-width: fit-content;
     }
 
 
@@ -46,10 +47,11 @@
         display: none;
     }
 
+
+/* mobile*/
     .banner {
         display: none;
     }
-
 
     .bannerMobile {
         padding-top: 40px;
@@ -73,6 +75,10 @@
         padding-top: 5%;
         justify-items: center;
         justify-content: center;
+    }
+
+    .bannerMobile {
+        display: none;
     }
 }
 

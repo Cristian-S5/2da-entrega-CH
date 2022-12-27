@@ -32,6 +32,7 @@ header {
     margin-left: 25px;
     margin-top: 15px; }
 
+/* PC */
 .banner {
   padding-top: 5%;
   padding-bottom: 5%; }
@@ -167,12 +168,14 @@ h3 {
       transition: background-color .5s; }
   nav {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    max-width: fit-content; }
   .logoInicio {
     display: flex;
     justify-content: center; }
   .buscador {
     display: none; }
+  /* mobile*/
   .banner {
     display: none; }
   .bannerMobile {
@@ -185,7 +188,9 @@ h3 {
     grid-template-rows: 500px 500px 500px;
     padding-top: 5%;
     justify-items: center;
-    justify-content: center; } }
+    justify-content: center; }
+  .bannerMobile {
+    display: none; } }
 
 @media (min-width: 1200px) {
   .gridDestacados {
