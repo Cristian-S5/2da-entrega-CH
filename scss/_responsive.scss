@@ -1,0 +1,105 @@
+@media (max-width: 800px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        background-color: $primary-color;
+        padding: 2%;
+        justify-content: center;
+        height: 200px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul li {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    li a {
+        color: #ffffff;
+        font: 110% $font-stack;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #D5E9D9;
+            color: $primary-color;
+            transition: background-color .5s;
+            }
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .logoInicio {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .buscador {
+        display: none;
+    }
+
+    .banner {
+        display: none;
+    }
+
+
+    .bannerMobile {
+        padding-top: 40px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 1200px) {
+    .gridProductos {
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 500px 500px 500px;
+        padding-top: 5%;
+        justify-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .gridDestacados {
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 500px;
+        justify-content: center;
+        justify-items: center;
+        grid-gap: 50px;
+    }
+
+    .gridDestacados1 {
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 400px;
+        justify-content: center;
+        justify-items: center;
+        grid-gap: 70px;
+        padding-bottom: 100px;
+    }
+
+
+}
