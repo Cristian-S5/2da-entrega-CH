@@ -31,9 +31,7 @@
     }
 
     nav {
-        display: flex;
-        justify-content: center;
-        max-width: fit-content;
+        display: none;
     }
 
 
@@ -48,7 +46,7 @@
     }
 
 
-/* mobile*/
+    /* mobile*/
     .banner {
         display: none;
     }
@@ -58,12 +56,31 @@
     }
 
 
+    nav ul li a {
+        display: none;
+    }
 
+    .dropdown {
+        margin: auto;
+    }
 
+.dropdown-menu {
+        text-decoration: none;
 
+        a {
+            color: $primary-color;
+        }
 
+    }
+
+.maps {
+    width:300;
+    height:150;
+}
 
 }
+
+
 
 
 
@@ -80,6 +97,25 @@
     .bannerMobile {
         display: none;
     }
+
+    .dropdown {
+        display: none;
+    }
+
+    nav ul li a {
+        color: #ffffff;
+        font: 110% $font-stack;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #D5E9D9;
+            color: $primary-color;
+            transition: background-color .5s;
+            font-weight: 500;
+        }
+    }
+
+
 }
 
 
@@ -106,6 +142,7 @@
         grid-gap: 70px;
         padding-bottom: 100px;
     }
+
 
 
 }

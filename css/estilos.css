@@ -16,15 +16,6 @@ header {
       header nav ul li {
         padding: 5px;
         margin: 5px; }
-        header nav ul li a {
-          color: #ffffff;
-          font: 110% arial;
-          text-decoration: none; }
-          header nav ul li a:hover {
-            background-color: #D5E9D9;
-            color: #006761;
-            transition: background-color .5s;
-            font-weight: 500; }
   header .buscador {
     margin-left: 550px;
     margin-top: 5px; }
@@ -167,9 +158,7 @@ h3 {
       color: #006761;
       transition: background-color .5s; }
   nav {
-    display: flex;
-    justify-content: center;
-    max-width: fit-content; }
+    display: none; }
   .logoInicio {
     display: flex;
     justify-content: center; }
@@ -179,7 +168,18 @@ h3 {
   .banner {
     display: none; }
   .bannerMobile {
-    padding-top: 40px; } }
+    padding-top: 40px; }
+  nav ul li a {
+    display: none; }
+  .dropdown {
+    margin: auto; }
+  .dropdown-menu {
+    text-decoration: none; }
+    .dropdown-menu a {
+      color: #006761; }
+  .maps {
+    width: 300;
+    height: 150; } }
 
 @media (min-width: 1200px) {
   .gridProductos {
@@ -190,7 +190,18 @@ h3 {
     justify-items: center;
     justify-content: center; }
   .bannerMobile {
-    display: none; } }
+    display: none; }
+  .dropdown {
+    display: none; }
+  nav ul li a {
+    color: #ffffff;
+    font: 110% arial;
+    text-decoration: none; }
+    nav ul li a:hover {
+      background-color: #D5E9D9;
+      color: #006761;
+      transition: background-color .5s;
+      font-weight: 500; } }
 
 @media (min-width: 1200px) {
   .gridDestacados {

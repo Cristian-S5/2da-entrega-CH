@@ -28,21 +28,6 @@ header {
             li {
                 padding: 5px;
                 margin: 5px;
-
-
-
-                a {
-                    color: #ffffff;
-                    font: 110% $font-stack;
-                    text-decoration: none;
-
-                    &:hover {
-                        background-color: #D5E9D9;
-                        color: $primary-color;
-                        transition: background-color .5s;
-                        font-weight: 500;
-                    }
-                }
             }
         }
 
@@ -67,6 +52,8 @@ header {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
+
 
 
 
