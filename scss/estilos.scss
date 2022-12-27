@@ -1,3 +1,8 @@
+$font-stack: arial;
+$primary-color: #006761;
+
+
+
 .contenedorEtiquetas {
     max-width: 1800px;
     margin: auto;
@@ -13,9 +18,8 @@
     header {
         display: flex;
         flex-direction: column;
-        background-color: #006761;
+        background-color: $primary-color;
         padding: 2%;
-        font-family: 'Helvetica';
         justify-content: center;
         height: 200px;
     }
@@ -29,13 +33,22 @@
         margin: 5px;
     }
 
-    ul li a {
+    li a {
         color: #ffffff;
+        font: 110% $font-stack;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #D5E9D9;
+            color: $primary-color;
+            transition: background-color .5s;
+            font-weight: 500;
+        }
     }
 
     nav {
         display: flex;
-        justify-content:flex-end;
+        justify-content: flex-end;
     }
 
 
@@ -66,9 +79,9 @@
 
 
 header {
-    background-color: #006761;
+    background-color: $primary-color;
     padding: 2%;
-    font-family: 'Helvetica';
+
 
 
     nav {
@@ -82,8 +95,19 @@ header {
                 padding: 5px;
                 margin: 5px;
 
+                
+
                 a {
                     color: #ffffff;
+                    font: 110% $font-stack;
+                    text-decoration: none;
+
+                    &:hover {
+                        background-color: #D5E9D9;
+                        color: $primary-color;
+                        transition: background-color .5s;
+                        font-weight: 500;
+                    }
                 }
             }
         }
@@ -114,7 +138,7 @@ header {
 
 
 footer {
-    background-color: #006761;
+    background-color: $primary-color;
     flex-direction: column;
 
     align-items: center;
@@ -122,7 +146,7 @@ footer {
     ul li {
         color: white;
         padding: 5px;
-        font-family: 'Helvetica', sans-serif;
+        font: $font-stack;
         text-align: center;
     }
 
@@ -163,8 +187,7 @@ footer {
 .titulos {
     text-align: center;
     padding-top: 5%;
-    font-size: 300%;
-    font-family: Helvetica, sans-serif;
+    font: 300% $font-stack;
 }
 
 
@@ -230,7 +253,7 @@ footer {
 
 
 .thumbnail {
-    border-color: #006761;
+    border-color: $primary-color;
     border-width: 3px;
     border-style: groove;
     border-radius: 10%;
@@ -242,7 +265,7 @@ footer {
 }
 
 div p {
-    font-size: 20px;
+    font: 20px $font-stack;
 }
 
 .botonAnimado:hover {
@@ -250,9 +273,9 @@ div p {
 }
 
 .botonAnimado {
-    background-color: #006761;
+    background-color: $primary-color;
     color: #ffffff;
-    font-family: 'Helvetica', sans-serif;
+    font: $font-stack;
     border-radius: 10px;
     border-color: #ffffff;
     margin: auto;
@@ -298,14 +321,14 @@ div p {
     padding-bottom: 0%;
     padding-left: 20%;
     padding-right: 20%;
-    font-size: 200%;
+    font: 200% $font-stack;
 }
 
 
 .textoAyuda {
 
     text-align: center;
-    font-size: 200%;
+    font: 200% $font-stack;
 }
 
 h3 {
@@ -317,6 +340,7 @@ h3 {
 .formularioConsultas {
     padding-bottom: 5%;
     text-align: center;
+
 }
 
 .mapa {
