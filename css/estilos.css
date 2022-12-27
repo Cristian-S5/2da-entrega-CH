@@ -60,7 +60,7 @@ footer {
 .gridDestacados1 {
   display: grid;
   grid-template-columns: 100px;
-  grid-template-rows: 550px 500px 500px;
+  grid-template-rows: 550px 500px;
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
@@ -210,7 +210,7 @@ h3 {
     grid-gap: 50px; }
   .gridDestacados1 {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 400px 400px;
     grid-template-rows: 400px;
     justify-content: center;
     justify-items: center;
