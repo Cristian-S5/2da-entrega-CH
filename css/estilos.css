@@ -8,16 +8,13 @@
 header {
   background-color: #006761;
   padding: 2%;
-  align-items: center; }
+  justify-content: space-between; }
   header nav {
-    display: flex;
-    justify-content: start; }
+    display: flex; }
     header nav ul {
       list-style: none; }
       header nav ul li {
         padding: 5px; }
-  header .buscador {
-    margin-left: 400px; }
 
 /* PC */
 .banner {
@@ -166,7 +163,8 @@ h3 {
       color: #006761;
       transition: background-color .5s; }
   nav {
-    display: none; }
+    display: none;
+    justify-items: start; }
   .logoInicio {
     display: flex;
     justify-content: center; }

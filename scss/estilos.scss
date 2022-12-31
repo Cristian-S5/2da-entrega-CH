@@ -15,13 +15,14 @@
 header {
     background-color: $primary-color;
     padding: 2%;
-    align-items: center;
+    justify-content: space-between;
+
 
 
 
     nav {
         display: flex;
-       justify-content: start;
+        
 
         ul {
             list-style: none;
@@ -34,15 +35,7 @@ header {
 
     }
 
-
-    .buscador {
-        margin-left: 400px;
        
-    }
-
-    .logoInicio {
-        
-    }
 
 }
 
