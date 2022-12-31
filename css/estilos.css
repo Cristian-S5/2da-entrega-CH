@@ -7,21 +7,17 @@
 
 header {
   background-color: #006761;
-  padding: 2%; }
+  padding: 2%;
+  align-items: center; }
   header nav {
     display: flex;
-    margin-left: auto; }
+    justify-content: start; }
     header nav ul {
       list-style: none; }
       header nav ul li {
-        padding: 5px;
-        margin: 5px; }
+        padding: 5px; }
   header .buscador {
-    margin-left: 400px;
-    margin-top: 5px; }
-  header .logoInicio {
-    margin-left: 25px;
-    margin-top: 15px; }
+    margin-left: 400px; }
 
 /* PC */
 .banner {
