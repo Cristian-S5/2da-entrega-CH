@@ -1,5 +1,10 @@
 @import "variables";
 
+@font-face {
+    font-family: Comfortaa-Regular;
+    src: url("Comfortaa-Regular.ttf") format('truetype');
+  }
+
 
 
 .contenedorEtiquetas {
@@ -34,15 +39,12 @@ header {
         }
 
     }
-
-       
-
 }
 
 
 /* PC */
 .banner {
-    padding-top: 5%;
+    padding-top: 0%;
     padding-bottom: 5%;
 }
 
@@ -109,16 +111,15 @@ footer {
 
 
 
-
+/* mobile */
 .gridDestacados {
-    display: grid;
-    grid-template-columns: 100px;
-    grid-template-rows: 450px 450px 450px;
-    padding-top: 50px;
-    justify-content: center;
-    justify-items: center;
-    grid-gap: 50px;
-}
+  display: grid;
+  grid-template-columns: 100px;
+  grid-template-rows: 520px 450px 450px 450px;
+  padding-top: 50px;
+  justify-content: center;
+  justify-items: center;
+  }
 
 
 
@@ -149,7 +150,7 @@ footer {
 .thumbnail {
     border-color: $primary-color;
     border-width: 3px;
-    border-style: groove;
+    border-style:solid;
     border-radius: 10%;
 }
 
@@ -253,9 +254,18 @@ input {
     padding-bottom: 50px;
 }
 
-.grid2 {
-    display: grid;
-    justify-content: center;
+.texforMap {
+    display: flex;
+    flex-direction: column;
 }
+
+.entradaTexto {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 
 @import "responsive";

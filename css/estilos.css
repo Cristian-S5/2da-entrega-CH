@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Comfortaa-Regular;
+  src: url("Comfortaa-Regular.ttf") format("truetype"); }
+
 .contenedorEtiquetas {
   max-width: 1800px;
   margin: auto; }
@@ -18,7 +22,7 @@ header {
 
 /* PC */
 .banner {
-  padding-top: 5%;
+  padding-top: 0%;
   padding-bottom: 5%; }
 
 footer {
@@ -28,7 +32,7 @@ footer {
   footer ul li {
     color: white;
     padding: 5px;
-    font: arial;
+    font: Comfortaa;
     text-align: center; }
   footer p {
     color: #ffffff;
@@ -39,16 +43,16 @@ footer {
 .titulos {
   text-align: center;
   padding-top: 5%;
-  font: 300% arial; }
+  font: 300% Comfortaa; }
 
+/* mobile */
 .gridDestacados {
   display: grid;
   grid-template-columns: 100px;
-  grid-template-rows: 450px 450px 450px;
+  grid-template-rows: 520px 450px 450px 450px;
   padding-top: 50px;
   justify-content: center;
-  justify-items: center;
-  grid-gap: 50px; }
+  justify-items: center; }
 
 .gridDestacados1 {
   display: grid;
@@ -63,14 +67,14 @@ footer {
 .thumbnail {
   border-color: #006761;
   border-width: 3px;
-  border-style: groove;
+  border-style: solid;
   border-radius: 10%; }
 
 .fondoDestacados {
   background-color: #D5E9D9; }
 
 div p {
-  font: 20px arial; }
+  font: 20px Comfortaa; }
 
 .botonAnimado:hover {
   height: 50px; }
@@ -78,7 +82,7 @@ div p {
 .botonAnimado {
   background-color: #006761;
   color: #ffffff;
-  font: arial;
+  font: Comfortaa;
   border-radius: 10px;
   border-color: #ffffff;
   margin: auto;
@@ -105,11 +109,11 @@ div p {
   padding-bottom: 0%;
   padding-left: 20%;
   padding-right: 20%;
-  font: 200% arial; }
+  font: 200% Comfortaa; }
 
 .textoAyuda {
   text-align: center;
-  font: 200% arial; }
+  font: 200% Comfortaa; }
 
 h3 {
   text-align: center;
@@ -137,9 +141,13 @@ h3 {
   margin: auto;
   padding-bottom: 50px; }
 
-.grid2 {
-  display: grid;
-  justify-content: center; }
+.texforMap {
+  display: flex;
+  flex-direction: column; }
+
+.entradaTexto {
+  display: flex;
+  flex-direction: column; }
 
 @media (max-width: 800px) {
   header {
@@ -156,7 +164,7 @@ h3 {
     margin: 5px; }
   li a {
     color: #ffffff;
-    font: 110% arial;
+    font: 110% Comfortaa;
     text-decoration: none; }
     li a:hover {
       background-color: #D5E9D9;
@@ -183,9 +191,15 @@ h3 {
     text-decoration: none; }
     .dropdown-menu a {
       color: #006761; }
+  .textoAyuda {
+    text-align: center;
+    font: 200% Comfortaa;
+    max-width: 800px; }
   .formularioConsultas {
     padding-bottom: 5%;
     text-align: center; }
+    .formularioConsultas p {
+      padding-top: 10px; }
     .formularioConsultas input {
       width: 300px;
       height: 50px;
@@ -213,7 +227,7 @@ h3 {
     display: none; }
   nav ul li a {
     color: #ffffff;
-    font: 110% arial;
+    font: 110% Comfortaa;
     text-decoration: none; }
     nav ul li a:hover {
       background-color: #D5E9D9;
@@ -225,7 +239,7 @@ h3 {
   .gridDestacados {
     display: grid;
     grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 500px;
+    grid-template-rows: 500px 500px;
     justify-content: center;
     justify-items: center;
     grid-gap: 50px; }

@@ -74,11 +74,20 @@
 
     }
 
+    .textoAyuda {
 
+        text-align: center;
+        font: 200% $font-stack;
+        max-width: 800px;
+    }
 
     .formularioConsultas {
         padding-bottom: 5%;
         text-align: center;
+
+       p {
+            padding-top: 10px;
+        }
     
     
     input {
@@ -86,7 +95,7 @@
         height: 50px;
         border-width: 3px;
         border-radius: 10px;
-        border-color: $primary-color;
+        border-color: $primary-color; 
     }
     
     .areaTexto {
@@ -148,7 +157,7 @@
     .gridDestacados {
         display: grid;
         grid-template-columns: 400px 400px 400px;
-        grid-template-rows: 500px;
+        grid-template-rows: 500px 500px;
         justify-content: center;
         justify-items: center;
         grid-gap: 50px;
@@ -164,6 +173,7 @@
         padding-bottom: 100px;
     }
 
+    
 
 
 }
