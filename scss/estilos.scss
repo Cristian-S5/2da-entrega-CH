@@ -7,21 +7,34 @@
 
 
 
+
+
+
+
 .contenedorEtiquetas {
     max-width: 1800px;
     margin: auto;
 }
+
+
+
+
+
+
 
 .flex {
     display: flex;
 }
 
 
+
+
+
 header {
     background-color: $primary-color;
     padding: 2%;
     justify-content: space-between;
-
+    max-width :100%;
 
 
 
@@ -46,6 +59,7 @@ header {
 .banner {
     padding-top: 0%;
     padding-bottom: 5%;
+    max-width :100%;
 }
 
 
@@ -105,6 +119,19 @@ footer {
     padding-top: 5%;
     font: 300% $font-stack;
 }
+
+
+.conteiner {
+    max-width: 200px;
+    text-align: left;
+
+    h3 {
+        text-align: left;
+    }
+
+}
+
+
 
 
 
@@ -187,7 +214,7 @@ div p {
 }
 
 
-
+/*mobile*/
 .gridProductos {
     display: grid;
     grid-template-columns: 400px;
@@ -252,6 +279,11 @@ input {
     flex-direction: column;
     margin: auto;
     padding-bottom: 50px;
+
+label {
+    padding-top: 25px;
+}
+
 }
 
 .texforMap {
@@ -264,7 +296,48 @@ input {
     flex-direction: column;
 }
 
+.mapa {
+    margin: auto;
+}
 
+
+
+.conteinerNews {
+    margin:auto;
+    max-width: 10x;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+
+    p {
+        padding-right: 100px;
+    }
+
+    input {
+        width: 500px;
+        height: 50px;
+        border-width: 3px;
+        border-radius: 10px;
+        border-color: $primary-color;
+    }
+
+label {
+    padding-top: 25px;
+}
+
+}
+
+
+.formNews {
+    display: flex;
+    flex-direction: row;
+}
+
+.mapa iframe {
+    width: 700px;
+    height: 350px;
+}
 
 
 
